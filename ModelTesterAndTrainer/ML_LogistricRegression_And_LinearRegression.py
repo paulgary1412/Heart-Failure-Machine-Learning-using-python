@@ -22,7 +22,7 @@ from sklearn.metrics import (
 import os
 import numpy as np
 
-st.title("hey Machine Learning Algorithm: Logistic Regression and Linear Regression")
+st.title("Machine Learning Algorithm: Logistic Regression and Linear Regression")
 choice = st.selectbox("Select Scenarios", ["Environment", "Health","Predict"])
 if choice == "Environment":    
 # File uploader for the dataset
